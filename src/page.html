@@ -1,0 +1,2023 @@
+<html>
+
+<head lang="en">
+
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://dev.meandmygolf.com/wp-content/themes/mmg/favicon.ico" type="image/x-icon">
+	<script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+	<title>Dashboard - Me And My Golf</title>
+	<style>
+		.wishlist_table .add_to_cart,
+		a.add_to_wishlist.button.alt {
+			border-radius: 16px;
+			-moz-border-radius: 16px;
+			-webkit-border-radius: 16px;
+		}
+	</style>
+	<script type="text/javascript">
+		var ajaxurl = 'https://dev.meandmygolf.com/wp-admin/admin-ajax.php';
+	</script>
+
+	<!-- This site is optimized with the Yoast SEO plugin v7.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<!-- Admin only notice: this page doesn&#039;t show a meta description because it doesn&#039;t have one, either write it for this page specifically or go into the SEO -&gt; Search Appearance menu and set up a template. -->
+	<link rel="canonical" href="https://dev.meandmygolf.com/dashboard/?t=dashboard" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Dashboard - Me And My Golf" />
+	<meta property="og:url" content="https://dev.meandmygolf.com/dashboard/?t=dashboard" />
+	<meta property="og:site_name" content="Me And My Golf" />
+	<!-- / Yoast SEO plugin. -->
+
+	<link rel='dns-prefetch' href='//fast.wistia.com' />
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+	<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+	<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+	<link rel='dns-prefetch' href='//s.w.org' />
+	<link rel="alternate" type="application/rss+xml" title="Me And My Golf &raquo; Dashboard Comments Feed" href="https://dev.meandmygolf.com/dashboard/?t=dashboard/feed/"
+	/>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='apss-font-awesome-css' href='https://dev.meandmygolf.com/wp-content/plugins/accesspress-social-share/css/font-awesome/font-awesome.min.css?ver=4.3.7'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='apss-font-opensans-css' href='//fonts.googleapis.com/css?family=Open+Sans&#038;ver=4.9.5' type='text/css'
+	 media='all' />
+	<link rel='stylesheet' id='apss-frontend-css-css' href='https://dev.meandmygolf.com/wp-content/plugins/accesspress-social-share/css/frontend.css?ver=4.3.7'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='cff-css' href='https://dev.meandmygolf.com/wp-content/plugins/custom-facebook-feed-pro/css/cff-style.css?ver=2.6.8.1'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='cff-font-awesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.5.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='king-countdowner-css' href='https://dev.meandmygolf.com/wp-content/plugins/easy-countdowner/assets/TimeCircles.css?ver=1.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='stcr-font-awesome-css' href='https://dev.meandmygolf.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/font-awesome.min.css?ver=4.9.5'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='wolf-twitter-css' href='https://dev.meandmygolf.com/wp-content/plugins/wolf-twitter/assets/css/twitter.min.css?ver=3.0.4.2'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='wc-aelia-cs-frontend-css' href='https://dev.meandmygolf.com/wp-content/plugins/woocommerce-aelia-currencyswitcher/src/design/css/frontend.css?ver=4.5.16.180307'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='follow-up-emails-css' href='https://dev.meandmygolf.com/wp-content/plugins/woocommerce-follow-up-emails/templates/followups.css?ver=4.7.1'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommerce-layout-css' href='https://dev.meandmygolf.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.3.4'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://dev.meandmygolf.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.3.4'
+	 type='text/css' media='only screen and (max-width: 768px)' />
+	<link rel='stylesheet' id='woocommerce-general-css' href='https://dev.meandmygolf.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.3.4'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='wpdiscuz-font-awesome-css' href='https://dev.meandmygolf.com/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.0.6/css/fontawesome-all.min.css?ver=5.0.7'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='wpdiscuz-frontend-css-css' href='https://dev.meandmygolf.com/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz.css?ver=5.0.7'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='jquery-selectBox-css' href='https://dev.meandmygolf.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='yith-wcwl-main-css' href='https://dev.meandmygolf.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=2.2.1'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='https://dev.meandmygolf.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.min.css?ver=4.7.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='jquery-ui-smoothness-css' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='gfonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C300%2C700&#038;ver=4.9.5'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='fonts-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/fonts/fonts.css?ver=1.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='icons-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/fonts/icon-fonts/style.css?ver=2.2.15'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='bxslider-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/front-components/bxslider/bxslider.css?ver=4.1.2'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='mCustomScrollbar-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/front-components/custom-scroll/scrollbar.css?ver=1.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='fcalendar-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/front-components/fullcalendar/fullcalendar.css?ver=2.7.1'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='fcalendar-print-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/front-components/fullcalendar/fullcalendar.print.css?ver=2.7.1'
+	 type='text/css' media='print' />
+	<link rel='stylesheet' id='mpopup-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/front-components/magnific-popup-master/magnific-popup.css?ver=1.1.0'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='rateyo-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/front-components/rateyo/rateyo.min.css?ver=2.1.1'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommerce-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/css/woocommerce-styles.css?ver=2.2.15'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='common-style-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/css/common-style.css?ver=2.2.15'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='common-dashboard-mobile-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/css/common-dashboard-mobile.css?ver=2.2.15'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='style-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/assets/css/style.css?ver=2.2.15'
+	 type='text/css' media='all' />
+	<link rel='stylesheet' id='main-css' href='https://dev.meandmygolf.com/wp-content/themes/mmg/style.css?ver=4.9.5' type='text/css'
+	 media='all' />
+	<link rel='stylesheet' id='query-monitor-css' href='https://dev.meandmygolf.com/wp-content/plugins/query-monitor/assets/query-monitor.css?ver=1516277921'
+	 type='text/css' media='all' />
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-content/plugins/easy-countdowner/assets/TimeCircles.js?ver=1.0'></script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var FUE = { "ajaxurl": "https:\/\/dev.meandmygolf.com\/wp-admin\/admin-ajax.php", "ajax_loader": "https:\/\/dev.meandmygolf.com\/wp-content\/plugins\/woocommerce-follow-up-emails\/templates\/images\/ajax-loader.gif" };
+/* ]]> */
+	</script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-content/plugins/woocommerce-follow-up-emails/templates/js/fue-account-subscriptions.js?ver=4.7.1'></script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js?ver=5.0.7'></script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js?ver=5.0.7'></script>
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var wpdiscuzAjaxObj = { "url": "https:\/\/dev.meandmygolf.com\/wp-admin\/admin-ajax.php", "wpdiscuz_options": { "wc_hide_replies_text": "Hide Replies", "wc_show_replies_text": "View Replies", "wc_msg_required_fields": "Please fill out required fields", "wc_invalid_field": "Some of field value is invalid", "wc_error_empty_text": "please fill out this field to comment", "wc_error_url_text": "url is invalid", "wc_error_email_text": "email address is invalid", "wc_invalid_captcha": "Invalid Captcha Code", "wc_login_to_vote": "You Must Be Logged In To Vote", "wc_deny_voting_from_same_ip": "You are not allowed to vote for this comment", "wc_self_vote": "You cannot vote for your comment", "wc_vote_only_one_time": "You've already voted for this comment", "wc_voting_error": "Voting Error", "wc_held_for_moderate": "Comment awaiting moderation", "wc_comment_edit_not_possible": "Sorry, this comment no longer possible to edit", "wc_comment_not_updated": "Sorry, the comment was not updated", "wc_comment_not_edited": "You've not made any changes", "wc_new_comment_button_text": "new comment", "wc_new_comments_button_text": "new comments", "wc_new_reply_button_text": "new reply on your comment", "wc_new_replies_button_text": "new replies on your comments", "wc_msg_input_min_length": "Input is too short", "wc_msg_input_max_length": "Input is too long", "is_user_logged_in": true, "commentListLoadType": "0", "commentListUpdateType": "0", "commentListUpdateTimer": "10", "liveUpdateGuests": "1", "wc_comment_bg_color": "#FEFEFE", "wc_reply_bg_color": "#F8F8F8", "wordpress_comment_order": "asc", "commentsVoteOrder": false, "wordpressThreadCommentsDepth": "5", "wordpressIsPaginate": "", "commentTextMaxLength": null, "storeCommenterData": 100000, "isCaptchaInSession": true, "isGoodbyeCaptchaActive": false, "facebookAppID": "", "cookiehash": "f8526e86a77376e49555fc09113cd228", "isLoadOnlyParentComments": "1", "ahk": "^%pd4(zkc8ccz!vm7a6kt*=!r^7p!r#3", "version": "5.0.7", "wc_post_id": 78378, "loadLastCommentId": 0, "lastVisitKey": "wpdiscuz_last_visit", "lastVisitExpires": 1530958617, "lastVisitCookie": { "1": { "78378": 1528366617, "78936": 1528353757 } }, "wc_captcha_show_for_guest": 1, "wc_captcha_show_for_members": "0", "is_email_field_required": 1 } };
+/* ]]> */
+	</script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js?ver=5.0.7'></script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-includes/js/plupload/moxie.min.js?ver=1.3.5'></script>
+	<script type='text/javascript' src='https://dev.meandmygolf.com/wp-includes/js/plupload/plupload.min.js?ver=2.1.9'></script>
+	<script type='text/javascript' src='//fast.wistia.com/assets/external/E-v1.js?ver=1.1.1'></script>
+	<script type='text/javascript' src='//fast.wistia.com/labs/resumable/plugin.js?ver=1.1.1'></script>
+	<link rel='https://api.w.org/' href='https://dev.meandmygolf.com/wp-json/' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://dev.meandmygolf.com/xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dev.meandmygolf.com/wp-includes/wlwmanifest.xml"
+	/>
+	<meta name="generator" content="WordPress 4.9.5" />
+	<meta name="generator" content="WooCommerce 3.3.4" />
+	<link rel='shortlink' href='https://dev.meandmygolf.com/?p=78378' />
+	<!-- Custom Facebook Feed JS vars -->
+	<script type="text/javascript">
+		var cffsiteurl = "https://dev.meandmygolf.com/wp-content/plugins";
+		var cffajaxurl = "https://dev.meandmygolf.com/wp-admin/admin-ajax.php";
+		var cffmetatrans = "false";
+		var cfflinkhashtags = "false";
+	</script>
+	<!--noptimize-->
+	<!-- Global site tag (gtag.js) - Google AdWords:  -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'AW-');
+	</script>
+	<!--/noptimize-->
+
+
+	<style type="text/css">
+		#wpcomm .wc_new_comment {
+			background: #49B8E1;
+		}
+
+		#wpcomm .wc_new_reply {
+			background: #49B8E1;
+		}
+
+		#wpcomm .wc-form-wrapper {
+			background: none;
+		}
+
+		/* ->formBGColor */
+
+		#wpcomm .wpdiscuz-front-actions {
+			background: #F9F9F9;
+		}
+
+		#wpcomm .wpdiscuz-subscribe-bar {
+			background: #F9F9F9;
+		}
+
+		#wpcomm select,
+		#wpcomm input[type="text"],
+		#wpcomm input[type="email"],
+		#wpcomm input[type="url"],
+		#wpcomm input[type="date"],
+		#wpcomm input[type="color"] {
+			border: #D9D9D9 1px solid;
+		}
+
+		#wpcomm .wc-comment .wc-comment-right {
+			background: #FEFEFE;
+		}
+
+		#wpcomm .wc-reply .wc-comment-right {
+			background: #F8F8F8;
+		}
+
+		#wpcomm .wc-comment-right .wc-comment-text,
+		#wpcomm .wc-comment-right .wc-comment-text * {
+			font-size: 14px;
+		}
+
+		#wpcomm .wc-blog-administrator>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-administrator>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-administrator>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-editor>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-editor>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-editor>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-author>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-author>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-author>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-contributor>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-contributor>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-contributor>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-subscriber>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-subscriber>.wc-comment-right .wc-comment-author a {
+			color: #4A6B64;
+		}
+
+		#wpcomm .wc-blog-subscriber>.wc-comment-left .wc-comment-label {
+			color: #4A6B64;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-customer>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-customer>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-customer>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-shop_manager>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-shop_manager>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-shop_manager>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-fue_manager>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-fue_manager>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-fue_manager>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-wpseo_manager>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-wpseo_manager>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-wpseo_manager>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-wpseo_editor>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-wpseo_editor>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-wpseo_editor>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-post_author>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-post_author>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-post_author>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-blog-guest>.wc-comment-right .wc-comment-author,
+		#wpcomm .wc-blog-guest>.wc-comment-right .wc-comment-author a {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-blog-guest>.wc-comment-left .wc-comment-label {
+			color: #00B38F;
+			border: none;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-comment .wc-comment-left .wc-comment-label {
+			background: #ffffff;
+		}
+
+		#wpcomm .wc-load-more-submit {
+			border: 1px solid #D9D9D9;
+		}
+
+		#wpcomm .wc-new-loaded-comment>.wc-comment-right {
+			background: #F3F9FB;
+		}
+
+		#wpcomm .wpdiscuz-subscribe-bar {
+			color: #777;
+		}
+
+		#wpcomm .wpdiscuz-front-actions .wpdiscuz-sbs-wrap span {
+			color: #777;
+		}
+
+		#wpcomm .page-numbers {
+			color: #555;
+			border: #555 1px solid;
+		}
+
+		#wpcomm span.current {
+			background: #555;
+		}
+
+		#wpcomm .wpdiscuz-readmore {
+			cursor: pointer;
+			color: #49B8E1;
+		}
+
+		#wpcomm .wpdiscuz-textarea-wrap {
+			border: #D9D9D9 1px solid;
+		}
+
+		.wpd-custom-field .wcf-pasiv-star,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>label {
+			color: #DDDDDD;
+		}
+
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating:not(:checked)>label:hover,
+		.wpdiscuz-rating:not(:checked)>label:hover~label {}
+
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input~label:hover,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:not(:checked)~label:hover~label,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:not(:checked)~label:hover~label {
+			color: #FFED85;
+		}
+
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:checked~label:hover,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:checked~label:hover,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>label:hover~input:checked~label,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:checked+label:hover~label,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:checked~label:hover~label,
+		.wpd-custom-field .wcf-activ-star,
+		#wpcomm .wpdiscuz-item .wpdiscuz-rating>input:checked~label {
+			color: #FFD700;
+		}
+
+		#wpcomm .wc-comment-header {
+			border-bottom: 1px solid #dedede;
+		}
+
+		#wpcomm .wc-reply .wc-comment-header {
+			border-bottom: 1px solid #DDDDDD;
+		}
+
+		/* Buttons */
+
+		#wpcomm button,
+		#wpcomm input[type="button"],
+		#wpcomm input[type="reset"],
+		#wpcomm input[type="submit"] {
+			border: 1px solid #555555;
+			color: #FFFFFF;
+			background-color: #555555;
+		}
+
+		#wpcomm button:hover,
+		#wpcomm button:focus,
+		#wpcomm input[type="button"]:hover,
+		#wpcomm input[type="button"]:focus,
+		#wpcomm input[type="reset"]:hover,
+		#wpcomm input[type="reset"]:focus,
+		#wpcomm input[type="submit"]:hover,
+		#wpcomm input[type="submit"]:focus {
+			border: 1px solid #333333;
+			background-color: #333333;
+		}
+
+		#wpcomm .wpdiscuz-sort-buttons {
+			color: #777777;
+		}
+
+		#wpcomm .wpdiscuz-sort-button {
+			color: #777777;
+			cursor: pointer;
+		}
+
+		#wpcomm .wpdiscuz-sort-button:hover {
+			color: #49B8E1 !important;
+			cursor: pointer;
+		}
+
+		#wpcomm .wpdiscuz-sort-button-active {
+			color: #49B8E1 !important;
+			cursor: default !important;
+		}
+
+		#wpcomm .wc-cta-button,
+		#wpcomm .wc-cta-button-x {
+			color: #777777;
+			border-bottom: 1px solid #dddddd;
+		}
+
+		#wpcomm .wc-vote-link.wc-up {
+			color: #00B38F;
+		}
+
+		#wpcomm .wc-vote-link.wc-down {
+			color: #F3737E;
+		}
+
+		#wpcomm .wc-vote-result {
+			color: #999999;
+		}
+
+		#wpcomm .wpf-cta {
+			color: #999999;
+		}
+
+		#wpcomm .wpf-cta:hover {
+			background: #49B8E1 !important;
+			color: #FFFFFF;
+		}
+
+		#wpcomm .wc-cta-active {
+			background: #49B8E1 !important;
+			color: #FFFFFF;
+		}
+
+		#wpcomm .wc-cta-button:hover {
+			background: #49B8E1 !important;
+			color: #FFFFFF;
+		}
+
+		#wpcomm .wc-footer-right .wc-toggle,
+		#wpcomm .wc-footer-right .wc-toggle a,
+		#wpcomm .wc-footer-right .wc-toggle i {
+			color: #49B8E1;
+		}
+
+		/* STICKY COMMENT HEADER */
+
+		#wpcomm .wc-sticky-comment.wc-comment .wc-comment-header {
+			background: #f2fcfb;
+			border-bottom: 1px dotted #00B38F;
+		}
+
+		#wpcomm .wc-sticky-comment.wc-comment .wc-comment-header .wpd-sticky {
+			color: #00B38F;
+			border: 1px dotted #00B38F;
+		}
+
+		#wpcomm .wc-closed-comment.wc-comment .wc-comment-header .wpd-closed {
+			color: #555555;
+			border: 1px dotted #555555;
+		}
+
+		/* PRIVATE COMMENT HEADER */
+
+		#wpcomm .wc-private-comment.wc-comment .wc-comment-header {
+			background: #eeeeee;
+			border-bottom: 1px solid #999999;
+		}
+
+		#wpcomm .wc-private-comment.wc-comment .wc-comment-header .wpd-private {
+			color: #000000;
+			border: 1px dotted #333333;
+		}
+
+		.comments-area {
+			width: auto;
+		}
+	</style>
+	<noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+	<style type="text/css">
+		.nsl-container>a {
+			text-decoration: none !important;
+			box-shadow: none !important;
+			border: 0;
+			box-shadow: none;
+		}
+
+		.nsl-container-block {
+			max-width: 280px;
+		}
+
+		.nsl-container-block>a {
+			display: block;
+			margin: 10px 0;
+		}
+
+		.nsl-container-inline {
+			margin: -5px;
+			text-align: left;
+		}
+
+		.nsl-container-inline>a {
+			margin: 5px;
+		}
+
+		.nsl-container .nsl-button {
+			cursor: pointer;
+			vertical-align: top;
+			border-radius: 4px;
+		}
+
+		.nsl-container .nsl-button-default {
+			color: #fff;
+			display: flex;
+		}
+
+		.nsl-container .nsl-button-icon {
+			display: inline-block;
+		}
+
+		.nsl-container svg {
+			height: 24px;
+			width: 24px;
+			vertical-align: top;
+			margin: 8px;
+			flex: 0 0 auto;
+		}
+
+		.nsl-container .nsl-button-default span {
+			margin: 0 24px 0 12px;
+			padding: 10px 0;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			line-height: 20px;
+			letter-spacing: .25px;
+			overflow: hidden;
+			text-align: center;
+			text-overflow: clip;
+			white-space: nowrap;
+			flex: 1 1 auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+	</style>
+</head>
+
+<body class="page-template page-template-templates page-template-dashboard page-template-templatesdashboard-php page page-id-78378 logged-in dashboard bfwc-body home">
+
+
+
+	<!-- side-menu -->
+	<aside class="side-menu">
+
+		<h1 class="logo">
+			<a href="https://dev.meandmygolf.com/dashboard/?t=dashboard">
+				<img src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/logo_dashboard.svg" alt="" />
+			</a>
+		</h1>
+
+		<ul class="main-menu">
+			<li>
+				<a href="https://dev.meandmygolf.com/dashboard/?t=dashboard" class="active">
+					<i class="icon icon-home4"></i>
+					Home </a>
+			</li>
+			<li>
+				<a href="https://dev.meandmygolf.com/product-category/coaching-plans/?t=dashboard" class="">
+					<i class="icon icon-coaching"></i>
+					Coaching Plans </a>
+			</li>
+			<li class="has-sub-menu " id="fix-my-shot">
+				<a href="https://dev.meandmygolf.com/fix-my-show-help-video/?t=dashboard" class=" ">
+					<i class="icon icon-fixmyshot"></i>
+					SHOT FIXER </a>
+				<div class="sub-menu">
+					<div class="clearfix">
+						<a class="close-menu alignright">
+							<i class="icon icon-chevron-left"></i>
+						</a>
+					</div>
+					<h3 class="font-blue">CHOOSE CATEGORY</h3>
+					<ul>
+
+
+						<li class="clearfix shot-fixer-parents " data-term-id="467">
+
+							<a href="https://dev.meandmygolf.com/fix/faults-and-fixes-fat-thin/?t=dashboard" class="alignleft">Fat &amp; Thin</a>
+
+							<a href="https://www.youtube.com/watch?v=lmshF9uKuyg" class="alignright popup-iframe">
+								<i class="icon icon-question2 tooltip" title="Help Video"></i>
+							</a>
+						</li>
+
+
+
+						<li class="clearfix shot-fixer-parents " data-term-id="437">
+
+							<a href="https://dev.meandmygolf.com/fix/faults-and-fixes-hook/?t=dashboard" class="alignleft">Hook</a>
+
+							<a href="https://www.youtube.com/watch?v=qn5L-9Vul1k" class="alignright popup-iframe">
+								<i class="icon icon-question2 tooltip" title="Help Video"></i>
+							</a>
+						</li>
+
+
+
+						<li class="clearfix shot-fixer-parents " data-term-id="457">
+
+							<a href="https://dev.meandmygolf.com/fix/faults-and-fixes-off-center/?t=dashboard" class="alignleft">Off Center</a>
+
+							<a href="https://www.youtube.com/watch?v=gElLlSBMmPo" class="alignright popup-iframe">
+								<i class="icon icon-question2 tooltip" title="Help Video"></i>
+							</a>
+						</li>
+
+
+
+						<li class="clearfix shot-fixer-parents " data-term-id="479">
+
+							<a href="https://dev.meandmygolf.com/fix/faults-and-fixes/?t=dashboard" class="alignleft">Pull</a>
+
+							<a href="https://www.youtube.com/watch?v=wWALOkMxxOg" class="alignright popup-iframe">
+								<i class="icon icon-question2 tooltip" title="Help Video"></i>
+							</a>
+						</li>
+
+
+
+						<li class="clearfix shot-fixer-parents " data-term-id="447">
+
+							<a href="https://dev.meandmygolf.com/fix/faults-and-fixes-push/?t=dashboard" class="alignleft">Push</a>
+
+							<a href="https://www.youtube.com/watch?v=ye26uxXe89s" class="alignright popup-iframe">
+								<i class="icon icon-question2 tooltip" title="Help Video"></i>
+							</a>
+						</li>
+
+
+
+						<li class="clearfix shot-fixer-parents " data-term-id="425">
+
+							<a href="https://dev.meandmygolf.com/fix/faults-and-fixes-slice/?t=dashboard" class="alignleft">Slice</a>
+
+							<a href="https://www.youtube.com/watch?v=czjXL6D-VT4" class="alignright popup-iframe">
+								<i class="icon icon-question2 tooltip" title="Help Video"></i>
+							</a>
+						</li>
+
+
+						<li class="clearfix shot-fixer-help-parents">
+							<a href="https://dev.meandmygolf.com/fix-my-show-help-video/?t=dashboard" class="alignleft">How this works</a>
+							<a href="https://dev.meandmygolf.com/fix-my-show-help-video/?t=dashboard" class="alignright">
+								<i class="icon icon-question2 font-white"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="has-sub-menu" id="video-vault">
+				<a href="javascript:void(0)" class="">
+					<i class="icon icon-video-vaults"></i>
+					VIDEO VAULTS </a>
+				<div class="sub-menu">
+					<div class="clearfix">
+						<a class="close-menu alignright">
+							<i class="icon icon-chevron-left"></i>
+						</a>
+					</div>
+					<h3 class="font-blue">CHOOSE CATEGORY</h3>
+					<ul>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/golf-swing/?t=dashboard">Golf Swing</a>
+						</li>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/on-the-course/?t=dashboard">On The Course</a>
+						</li>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/performance/?t=dashboard">Performance</a>
+						</li>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/short-game/?t=dashboard">Short Game</a>
+						</li>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/swing-faults/?t=dashboard">Swing Faults</a>
+						</li>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/travel-experiences/?t=dashboard">Travel Experiences</a>
+						</li>
+
+						<li class="">
+							<a href="https://dev.meandmygolf.com/vaults/video-series/?t=dashboard">Video Series</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="has-sub-menu" id="my-plans">
+				<a href="javascript:void(0)" class="">
+					<i class="icon icon-plan"></i>
+					MY SAVED VIDEOS </a>
+				<div class="sub-menu">
+					<div class="clearfix">
+						<a class="close-menu alignright">
+							<i class="icon icon-chevron-left"></i>
+						</a>
+					</div>
+					<h3 class="font-blue">SAVED PLAYLISTS</h3>
+					<div class="scroll-content">
+						<ul id="menu-plans-list">
+							<li class="plan-list-item editable removable plan-10562 clearfix" data-plan-id="10562" data-plan-title="Favorites">
+								<a class="plan-title" href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=10562">Favorites</a>
+
+								<img class="menu-plans-star-icon" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/favorited_confirmed_star_icon.png">
+							</li>
+
+							<li class="plan-list-item editable removable plan-10574 clearfix" data-plan-id="10574" data-plan-title="Foot">
+								<a class="plan-title" href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=10574">Foot</a>
+								<a class="btn-edit-remove delete delete-plan" href="#delete-popup">
+									<i class="icon icon-trash-o"></i>
+								</a>
+								<a class="btn-edit-remove edit edit-plan" href="#edit-plan-popup">
+									<i class="icon icon-pencil-square-o"></i>
+								</a>
+							</li>
+
+							<li class="plan-list-item editable removable plan-9857 clearfix" data-plan-id="9857" data-plan-title="Rename plan">
+								<a class="plan-title" href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=9857">Rename plan</a>
+								<a class="btn-edit-remove delete delete-plan" href="#delete-popup">
+									<i class="icon icon-trash-o"></i>
+								</a>
+								<a class="btn-edit-remove edit edit-plan" href="#edit-plan-popup">
+									<i class="icon icon-pencil-square-o"></i>
+								</a>
+							</li>
+
+							<li class="plan-list-item editable removable plan-9856 clearfix" data-plan-id="9856" data-plan-title="Fix Slice">
+								<a class="plan-title" href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=9856">Fix Slice</a>
+								<a class="btn-edit-remove delete delete-plan" href="#delete-popup">
+									<i class="icon icon-trash-o"></i>
+								</a>
+								<a class="btn-edit-remove edit edit-plan" href="#edit-plan-popup">
+									<i class="icon icon-pencil-square-o"></i>
+								</a>
+							</li>
+
+							<li class="plan-list-item editable removable plan-3536 clearfix" data-plan-id="3536" data-plan-title="push">
+								<a class="plan-title" href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=3536">push</a>
+								<a class="btn-edit-remove delete delete-plan" href="#delete-popup">
+									<i class="icon icon-trash-o"></i>
+								</a>
+								<a class="btn-edit-remove edit edit-plan" href="#edit-plan-popup">
+									<i class="icon icon-pencil-square-o"></i>
+								</a>
+							</li>
+
+							<li class="plan-list-item editable removable plan-1887 clearfix" data-plan-id="1887" data-plan-title="pitching">
+								<a class="plan-title" href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=1887">pitching</a>
+								<a class="btn-edit-remove delete delete-plan" href="#delete-popup">
+									<i class="icon icon-trash-o"></i>
+								</a>
+								<a class="btn-edit-remove edit edit-plan" href="#edit-plan-popup">
+									<i class="icon icon-pencil-square-o"></i>
+								</a>
+							</li>
+							<li class="clearfix create-plan-wrap">
+								<a href="#create-plan-popup" class="font-blue pop-up">Create new plan</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li>
+				<a href="https://dev.meandmygolf.com/articles/?t=dashboard" class="">
+					<i class="icon icon-articles"></i>
+					Articles </a>
+			</li>
+			<li class="">
+				<a href="https://dev.meandmygolf.com/shop/?t=dashboard" class="">
+					<i class="icon icon-store"></i>
+					Store </a>
+			</li>
+			<li>
+				<a href="https://dev.meandmygolf.com/share-and-earn/?t=dashboard" class="">
+					<i class="icon icon-share"></i>
+					SHARE & EARN </a>
+			</li>
+		</ul>
+	</aside>
+	<!-- /end-side-menu -->
+	<!-- header -->
+	<header class="header bg-blue">
+		<div class="title-container">
+			<h2 class="light">Dashboard</h2>
+		</div>
+
+		<div class="settings-container">
+			<ul class="header-menu">
+
+
+				<style type="text/css">
+					.send_checkout {
+						display: none;
+					}
+				</style>
+
+
+				<!-- notifications -->
+				<li class="notifications ">
+					<a href="#" class="notifications-link">
+						<i class="icon icon-file5"></i>
+					</a>
+
+					<ul class="sub-menu popover notification-box scroll-content">
+						<li>
+							<a href="https://dev.meandmygolf.com/narrow-your-stance-to-draw-the-ball/?t=dashboard" class="clearfix">
+								<div class="notification-box-img alignleft">
+									<img src="https://secure.gravatar.com/avatar/6748d2ffc9c0ccc4dab6f37902ce9ffc?s=96&amp;d=mm&amp;r=g" alt="Piers Ward" />
+								</div>
+								<div class="notification-box-info">
+									<span class="author">Piers Ward</span>
+									<span class="post"> posted new blog article titled </span>
+									<span class="title">"Narrow Your Stance To Draw The Ball"</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://dev.meandmygolf.com/the-biggest-reason-for-golfers-3-putting/?t=dashboard" class="clearfix">
+								<div class="notification-box-img alignleft">
+									<img src="https://secure.gravatar.com/avatar/6748d2ffc9c0ccc4dab6f37902ce9ffc?s=96&amp;d=mm&amp;r=g" alt="Piers Ward" />
+								</div>
+								<div class="notification-box-info">
+									<span class="author">Piers Ward</span>
+									<span class="post"> posted new blog article titled </span>
+									<span class="title">"The Biggest Reason For Golfers 3 Putting"</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://dev.meandmygolf.com/plug-yourself-in-for-more-power-in-your-golf-swing/?t=dashboard" class="clearfix">
+								<div class="notification-box-img alignleft">
+									<img src="https://secure.gravatar.com/avatar/1245cc4bee2faaa91685e353f5f6edfa?s=96&amp;d=mm&amp;r=g" alt="Andy Proudman"
+									/>
+								</div>
+								<div class="notification-box-info">
+									<span class="author">Andy Proudman</span>
+									<span class="post"> posted new blog article titled </span>
+									<span class="title">"For More Power In Your Golf Swing - Plug Yourself In"</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://dev.meandmygolf.com/stop-back-pain-and-inconsistency-in-the-golf-swing/?t=dashboard" class="clearfix">
+								<div class="notification-box-img alignleft">
+									<img src="https://secure.gravatar.com/avatar/6748d2ffc9c0ccc4dab6f37902ce9ffc?s=96&amp;d=mm&amp;r=g" alt="Piers Ward" />
+								</div>
+								<div class="notification-box-info">
+									<span class="author">Piers Ward</span>
+									<span class="post"> posted new blog article titled </span>
+									<span class="title">"Stop Back Pain And Inconsistency In The Golf Swing"</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://dev.meandmygolf.com/pitch-like-golf-legend-seve-ballesteros/?t=dashboard" class="clearfix">
+								<div class="notification-box-img alignleft">
+									<img src="https://secure.gravatar.com/avatar/1245cc4bee2faaa91685e353f5f6edfa?s=96&amp;d=mm&amp;r=g" alt="Andy Proudman"
+									/>
+								</div>
+								<div class="notification-box-info">
+									<span class="author">Andy Proudman</span>
+									<span class="post"> posted new blog article titled </span>
+									<span class="title">"Pitch Like Golf Legend Seve Ballesteros"</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://dev.meandmygolf.com/mastering-fast-greens/?t=dashboard" class="clearfix">
+								<div class="notification-box-img alignleft">
+									<img src="https://secure.gravatar.com/avatar/6748d2ffc9c0ccc4dab6f37902ce9ffc?s=96&amp;d=mm&amp;r=g" alt="Piers Ward" />
+								</div>
+								<div class="notification-box-info">
+									<span class="author">Piers Ward</span>
+									<span class="post"> posted new blog article titled </span>
+									<span class="title">"“Mastering” fast greens."</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<!-- /end-notifications -->
+
+				<li class="has-sub-menu">
+					<a href="#">
+						<div class="avatar-container" style="background-image: url(https://graph.facebook.com/10216192346189825/picture?type=large);"></div>
+						<div class="name-container">
+							<div class="welcome">
+								WELCOME </div>
+							<div class="name">
+								Neil </div>
+						</div>
+						<i class="icon icon-chevron-down"></i>
+					</a>
+					<ul class="sub-menu popover">
+						<li>
+							<a href="https://dev.meandmygolf.com/dashboard-account/?t=dashboard">
+								<i class="icon icon-user6"></i>My Account </a>
+						</li>
+
+						<li>
+							<a href="https://dev.meandmygolf.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fdev.meandmygolf.com&amp;_wpnonce=c65f243341">
+								<i class="icon icon-sign-out"></i>Log Out </a>
+						</li>
+
+					</ul>
+				</li>
+				<li class="has-sub-menu">
+					<a href="#">
+						<span class="question-mark">?</span>
+					</a>
+					<ul class="sub-menu popover">
+						<li>
+							<a href="#watch-video" class="open-right-bar">
+								<i class="icon icon-camera2"></i>Watch Video</a>
+						</li>
+						<li>
+							<a href="#contact-form" class="open-right-bar">
+								<i class="icon icon-question"></i>Contact us</a>
+						</li>
+						<li>
+							<a href="#site-review" class="pop-up">
+								<i class="icon icon-pencil"></i>Write review</a>
+						</li>
+					</ul>
+				</li>
+				<!--
+
+                            <li class="currency-li">
+                    <div class="currency-switcher-cont header-currency-switcher-cont">
+                                            </div>
+                </li>
+            -->
+			</ul>
+		</div>
+
+		<div class="search-container">
+			<div class="header-search-form">
+				<div class="search">
+					<form method="get" class="search-form clearfix" action="https://dev.meandmygolf.com/search/?t=dashboard">
+						<input type="hidden" name="t" value="dashboard" />
+						<div class="ui-front">
+							<input type="text" class="field" name="keyword" id="mmg_search" autocomplete="off" placeholder="Keyword Search" value=""
+							/>
+						</div>
+						<img src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/loader.gif" class="search-loader">
+						<input type="submit" name="submit" value="" />
+						<i class="icon icon-search3"></i>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div id="site-review" class="mfp-hide popup-wrap popup-review">
+			<h2>Add a review</h2>
+			<div class="rate">
+				<div class="site-rating" data-rating="5"></div>
+				<span>your rating</span>
+			</div>
+			<form>
+				<input type="hidden" id="site-rating" value="5" />
+				<textarea required id="comment" placeholder="Enter your comment here"></textarea>
+				<input type="submit" class="btn btn-primary bg-green" value="Add" data-txt-updated="Update" />
+			</form>
+			<div id="review_response"></div>
+		</div>
+	</header>
+	<!-- /end-header -->
+
+
+	<div id="popup-response" class="mfp-hide popup-wrap popup-delete-plan text-center">
+		<h2 id="response-message"></h2>
+		<div class="clearfix" id="btn-group">
+			<input type="button" class="btn btn-primary bg-grey btn-cancel close-popup" value="Close" />
+		</div>
+	</div>
+
+	<div id="create-plan-popup" class="mfp-hide popup-wrap popup-new-plan text-center">
+		<div id="create_plan" class="in_popup create-new-panel clearfix visible">
+			<div class="input-field" id="plan_name">
+				<input type="text" placeholder="New Plan">
+				<div class="help-block text-left"></div>
+			</div>
+			<div class="clearfix">
+				<input type="submit" data-txt-loading="Loading" class="btn btn-primary bg-blue alignleft save" value="Save Plan">
+				<a href="#" class="btn btn-primary bg-grey alignright cancel close-popup">Cancel</a>
+			</div>
+			<div class="response"></div>
+		</div>
+	</div>
+
+	<div id="edit-plan-popup" class="mfp-hide popup-wrap popup-new-plan text-center">
+		<div id="edit_plan" class="in_popup create-new-panel clearfix visible">
+			<div class="input-field" id="plan_name">
+				<input type="text" id="plan_name" class="dynamic-name" placeholder="Plan Name">
+				<div class="help-block text-left"></div>
+			</div>
+			<div class="clearfix">
+				<input type="submit" data-txt-loading="Loading" class="btn btn-primary bg-blue alignleft save" value="Save Plan">
+				<a href="#" class="btn btn-primary bg-grey alignright cancel close-popup">Cancel</a>
+			</div>
+			<div class="response"></div>
+		</div>
+	</div>
+
+	<div id="delete-popup" class="mfp-hide popup-wrap popup-delete-plan text-center">
+		<h2>Do you realy want to delete "
+			<span class="dynamic-name"></span>"</h2>
+		<div class="clearfix" id="btn-group">
+			<input type="button" class="btn btn-primary bg-blue" data-txt-loading="Loading" id="process" value="Delete" />
+			<input type="button" class="btn btn-primary bg-grey btn-cancel close-popup" value="Cancel" />
+		</div>
+		<p></p>
+		<div class="hidden response"></div>
+	</div>
+
+
+	<div id="delete-video-popup" class="mfp-hide popup-wrap popup-delete-plan text-center">
+		<h2>Do you realy want to remove "
+			<span class="dynamic-name"></span>" from plan?</h2>
+		<div class="clearfix" id="btn-group">
+			<input type="button" class="btn btn-primary bg-blue" data-txt-loading="Loading" id="video-process" value="remove" />
+			<input type="button" class="btn btn-primary bg-grey btn-cancel close-popup" value="Cancel" />
+		</div>
+		<p></p>
+		<div class="hidden response"></div>
+	</div>
+	<!-- contact-form -->
+	<div id="contact-form" class="contact-form bg-yellow right-bar">
+		<div class="clearfix">
+			<a href="#" class="close alignleft">
+				<i class="icon icon-chevron-right"></i>
+			</a>
+		</div>
+		<h4>Contact Us</h4>
+
+		<p>Please let us know how we can help.</p>
+		<form class="clearfix">
+			<input type="hidden" id="_csrf" value="77969ec6ff" />
+			<div class="input-field">
+				<input type="text" id="contact_us_name" placeholder="Name*" />
+				<div class="help-block"></div>
+			</div>
+			<div class="input-field">
+				<input type="email" id="contact_us_email" placeholder="Email*" />
+				<div class="help-block"></div>
+			</div>
+			<div class="input-field">
+				<textarea id="contact_us_message" placeholder="Message"></textarea>
+				<div class="help-block"></div>
+			</div>
+			<input type="submit" value="Submit" class="btn bg-grey btn-primary alignright">
+		</form>
+		<div id="contact-us-status-message" class="hidden"></div>
+	</div>
+	<!-- /end-contact-form -->
+
+	<!-- watch-video -->
+	<div id="watch-video" class="watch-video video-list bg-yellow right-bar">
+		<div class="clearfix">
+			<a href="#" class="close alignleft">
+				<i class="icon icon-chevron-right"></i>
+			</a>
+		</div>
+
+		<h2>Videos</h2>
+		<p>Video tutorial tips on that will help you understand the "WHY" behind certain aspects of your game. Enjoy!</p>
+		<hr/>
+		<div class="scroll-content">
+			<ul>
+				<li class="clearfix">
+					<div class="alignleft">
+						<a href="https://www.youtube.com/watch?v=g9LavRF1Djg" data-video="194723" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/shot_fixer_help_video-175x115.jpg"
+						 class="video-list-url popup-iframe js-thumbnail"></a>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=g9LavRF1Djg" class="popup-iframe">How To Use The Shot Fixer</a>
+					</div>
+				</li>
+				<li class="clearfix">
+					<div class="alignleft">
+						<a href="https://www.youtube.com/watch?v=sdp1gt1Ulzg" data-video="194737" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/saving_a_plan-175x115.jpg"
+						 class="video-list-url popup-iframe js-thumbnail"></a>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=sdp1gt1Ulzg" class="popup-iframe">How To Save A Video To Your Plan</a>
+					</div>
+				</li>
+				<li class="clearfix">
+					<div class="alignleft">
+						<a href="https://www.youtube.com/watch?v=gobqHwhzQbE" data-video="198070" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/video_vault_introduction_21_02_17-175x115.jpg"
+						 class="video-list-url popup-iframe js-thumbnail"></a>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=gobqHwhzQbE" class="popup-iframe">Video Vault Introduction</a>
+					</div>
+				</li>
+				<li class="clearfix">
+					<div class="alignleft">
+						<a href="https://www.youtube.com/watch?v=BfvEgOYLBsc" data-video="198079" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/how_to_comment-175x115.jpg"
+						 class="video-list-url popup-iframe js-thumbnail"></a>
+					</div>
+					<div class="video-info">
+						<a href="https://www.youtube.com/watch?v=BfvEgOYLBsc" class="popup-iframe">How To Comment On A Video</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /end-watch-video -->
+
+	<div class="main-wrap ">
+
+
+		<div class="dashboard-container">
+			<!-- section-video -->
+			<section class="section-box section-video">
+				<div class="container">
+					<div class="row">
+						<div class="col-8">
+							<div class="video-box">
+
+								<h3>
+									<span class="font-blue">New Video</span> S2D &#8211; Get On Plane</h3>
+								<div class="row">
+								</div>
+								<div class="add-plans row icon-case-cont icon-case-cont-dashboard">
+									<div class="col-12">
+										<div class="choose-plan-box alignleft ">
+											<span class="star-icon-container">
+												<span data-tooltip="Add to favorites">
+													<img class="disabled-icon" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/favorited_star_grey_icon.png">
+												</span>
+												<span data-tooltip="Remove from favorites">
+													<img class="active-icon" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/favorited_confirmed_star_icon.png"
+													 style='display: none;'>
+												</span>
+											</span>
+
+											<a href="#" class="icon-case">
+												<span data-tooltip="Add to saved videos">
+													<img class="plan" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/add_saved_plan_icon.png">
+												</span>
+											</a>
+											<ul id="plans-dropdown" class="choose-plan brd-radius box-shadow" data-video-id="220587">
+
+												<li class="plan-list-item plan-10562 " data-plan-id="10562" data-favorites="true">
+													<label class="chbox">
+														<input type="checkbox" class="custom-chbox">
+														<span></span>
+														<a class="plan-title" data-plan-id="10562">Favorites</a>
+													</label>
+												</li>
+
+												<li class="plan-list-item plan-10574 " data-plan-id="10574">
+													<label class="chbox">
+														<input type="checkbox" class="custom-chbox">
+														<span></span>
+														<a class="plan-title" data-plan-id="10574">Foot</a>
+													</label>
+												</li>
+												<li class="plan-list-item plan-9857 " data-plan-id="9857">
+													<label class="chbox">
+														<input type="checkbox" class="custom-chbox">
+														<span></span>
+														<a class="plan-title" data-plan-id="9857">Rename plan</a>
+													</label>
+												</li>
+												<li class="plan-list-item plan-9856 " data-plan-id="9856">
+													<label class="chbox">
+														<input type="checkbox" class="custom-chbox">
+														<span></span>
+														<a class="plan-title" data-plan-id="9856">Fix Slice</a>
+													</label>
+												</li>
+												<li class="plan-list-item plan-3536 " data-plan-id="3536">
+													<label class="chbox">
+														<input type="checkbox" class="custom-chbox">
+														<span></span>
+														<a class="plan-title" data-plan-id="3536">push</a>
+													</label>
+												</li>
+												<li class="plan-list-item plan-1887 " data-plan-id="1887">
+													<label class="chbox">
+														<input type="checkbox" class="custom-chbox">
+														<span></span>
+														<a class="plan-title" data-plan-id="1887">pitching</a>
+													</label>
+												</li>
+
+												<li class="create-plan">
+													<a href="#" class="btn btn-primary bg-green new-plan">
+														<i class="icon icon-plus"></i> Create NEW Plan</a>
+
+													<div id="create_plan" class="create-new-panel clearfix">
+														<div class="input-field" id="plan_name">
+															<input type="text" placeholder="New Plan" />
+															<div class="help-block text-left"></div>
+														</div>
+														<div class="clearfix">
+															<input type="submit" data-txt-loading="Loading" class="btn btn-primary bg-blue alignleft save" value="Save Plan" />
+															<a href="#" class="btn btn-primary bg-grey alignright cancel">Cancel</a>
+														</div>
+														<div class="response"></div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="list-group">
+								<div class="list-group-title bg-blue">
+									<h3>Recently Added Videos</h3>
+								</div>
+								<div class="scroll-content middle list-group-cont video-list">
+									<ul>
+
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/s2d-get-on-plane/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/05/Week-4-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/s2d-get-on-plane/?t=dashboard">S2D &#8211; Get On Plane</a>
+												</h3>
+
+												<span>
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/s2d-create-the-curve/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/05/Week-3-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/s2d-create-the-curve/?t=dashboard">S2D &#8211; Create The Curve</a>
+												</h3>
+
+												<span>
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/s2d-perfect-the-backswing/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/05/Week-2-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/s2d-perfect-the-backswing/?t=dashboard">S2D &#8211; Perfect The Backswing</a>
+												</h3>
+
+												<span>
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/s2d-master-the-setup/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/05/Week-1-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/s2d-master-the-setup/?t=dashboard">S2D &#8211; Master The Setup</a>
+												</h3>
+
+												<span>
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/lay-on-table/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/01/lay_on_table-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/lay-on-table/?t=dashboard&type=vault">Lay On Table</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>105 views
+													<span class="author"></span>
+												</span>
+												<span class="font-blue watched-container">
+													<i class="icon icon-eye"></i>Watched </span>
+
+												<div class="video-icons-cont">
+													<span data-tooltip="Added to favorites" class="sidebar-case">
+														<img class="star" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/favorited_confirmed_star_icon.png">
+													</span>
+
+													<span data-tooltip="Saved" class="sidebar-case">
+														<img class="plan" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/saved_plan_confirmed_icon.png">
+													</span>
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/avoid-the-stick/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/avoid_the_stick-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/avoid-the-stick/?t=dashboard&type=vault">Avoid The Stick</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>108 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/arms-delay/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/arms_delay-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/arms-delay/?t=dashboard&type=vault">Arms Delay</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>151 views
+													<span class="author"></span>
+												</span>
+												<span class="font-blue watched-container">
+													<i class="icon icon-eye"></i>Watched </span>
+
+												<div class="video-icons-cont">
+													<span data-tooltip="Added to favorites" class="sidebar-case">
+														<img class="star" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/favorited_confirmed_star_icon.png">
+													</span>
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/wall-drag-drill/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/wall_drag_drill-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/wall-drag-drill/?t=dashboard&type=vault">Wall Drag Drill</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>191 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/middle-your-irons-toe-strike-drill/?t=dashboard&type=fix" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/middle_your_irons__toe_strike_drill-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/middle-your-irons-toe-strike-drill/?t=dashboard&type=fix">Middle Your Irons &#8211; Toe Strike Drill</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>175 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/improve-your-backswing-with-handle-low-drill/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/improve_your_backswing_with_handle_low-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/improve-your-backswing-with-handle-low-drill/?t=dashboard&type=vault">Improve Your Backswing With Handle Low Drill</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>275 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+													<span data-tooltip="Added to favorites" class="sidebar-case">
+														<img class="star" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/favorited_confirmed_star_icon.png">
+													</span>
+
+													<span data-tooltip="Saved" class="sidebar-case">
+														<img class="plan" src="https://dev.meandmygolf.com/wp-content/themes/mmg/assets/images/saved_plan_confirmed_icon.png">
+													</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /end-section-video -->
+
+			<section class="dashboard-image-section">
+				<div class="container">
+					<a target="_blank" href="https://www.google.com">
+						<img src="https://dev.meandmygolf.com/wp-content/uploads/2016/07/member_giveaway_dashboard_image.png">
+					</a>
+				</div>
+			</section>
+
+			<!-- section-list-groups -->
+			<section class="section-box section-list-groups">
+				<div class="container">
+					<div class="row">
+						<div class="col-4">
+							<div class="list-group">
+								<div class="list-group-title bg-grey">
+									<h3>Recently Viewed Videos</h3>
+								</div>
+								<div class="list-group-cont scroll-content">
+
+									<ul>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/Week-6-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard">Pre Shot Routine</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 29, 2018 at 12:07pm </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/Week-6-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard">Pre Shot Routine</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 29, 2018 at 12:05pm </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/Week-6-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard">Pre Shot Routine</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 29, 2018 at 12:02pm </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/Week-6-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/pre-shot-routine/?t=dashboard">Pre Shot Routine</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 29, 2018 at 12:01pm </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/back-to-basics/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/week-1-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/back-to-basics/?t=dashboard">Back to Basics</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 29, 2018 at 11:00am </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/break-100-week-1-drills/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/drills-week-1-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/break-100-week-1-drills/?t=dashboard">Break 100 &#8211; Week 1 Drills</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 29, 2018 at 10:27am </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/back-to-basics/?t=dashboard" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/03/week-1-100x56.png"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/back-to-basics/?t=dashboard">Break 100 &#8211; Week 1</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 27, 2018 at 1:50pm </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/ball-forward/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/ball_forward_sway-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/ball-forward/?t=dashboard&type=vault">Ball Forward</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 22, 2018 at 9:41am </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/5-ball-tempo-drill/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2018/01/5_ball_tempo_drill-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/5-ball-tempo-drill/?t=dashboard&type=vault">5 Ball Tempo Drill</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> March 22, 2018 at 9:41am </span>
+											</div>
+										</li>
+
+										<li class="clearfix">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/the-woosh-drill/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/the_woosh_drill-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/the-woosh-drill/?t=dashboard&type=vault">The Woosh Drill</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-calendar-o"></i> September 28, 2017 at 3:16pm </span>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="list-group">
+								<div class="list-group-title bg-green">
+									<a href="#create-plan-popup" class="btn bg-white alignright pop-up btn-position">
+										<i class="icon font-green icon-plus-square-o"></i>
+									</a>
+									<h3>MY SAVED VIDEOS</h3>
+								</div>
+								<div class="list-group-cont">
+									<ul id="dashboard-saved-plans-widget">
+										<li class="plan-list-item plan-10574">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon-check font-green"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=10574" class="plan-title">
+																	Foot </a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> September 19, 2017 at 2:38pm</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="plan-list-item plan-10562">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon-check font-green"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=10562" class="plan-title">
+																	Favorites </a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> September 14, 2017 at 2:04pm</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="plan-list-item plan-9857">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon-check font-green"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=9857" class="plan-title">
+																	Rename plan </a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> February 14, 2017 at 4:34pm</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="plan-list-item plan-9856">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon-check font-green"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/plans/?t=dashboard&plan=9856" class="plan-title">
+																	Fix Slice </a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> February 14, 2017 at 4:34pm</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="list-group clear-both">
+								<div class="list-group-title bg-blue-light">
+									<h3>MOST POPULAR VIDEOS</h3>
+								</div>
+
+								<div class="list-group-cont video-list">
+									<ul>
+
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/impact-show-pure-your-irons-part-1/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/the_best_golf_tip_to_strike_your_irons_pure-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/impact-show-pure-your-irons-part-1/?t=dashboard&type=vault">Impact Show – Pure Your Irons Part 1</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>1690859 views
+													<span class="author"></span>
+												</span>
+												<span class="font-blue watched-container">
+													<i class="icon icon-eye"></i>Watched </span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/strike-your-irons-pure-part-1/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/02/strike_your_irons_pure__part_1-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/strike-your-irons-pure-part-1/?t=dashboard&type=vault">Strike Your Irons Pure Part 1</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>887703 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/impact-show-part-1-the-golf-swing/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2017/03/how_to_build_a_consistent_golf_swing-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/impact-show-part-1-the-golf-swing/?t=dashboard&type=vault">Impact Show &#8211; Consistent Golf Swing Part 1</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>474637 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+										<li class="clearfix ">
+											<div class="video alignleft">
+												<a href="https://dev.meandmygolf.com/video/turn-your-slice-into-a-draw-part-1/?t=dashboard&type=vault" data-thumbnail="https://dev.meandmygolf.com/wp-content/uploads/2015/07/slice-into-draw-100x56.jpg"
+												 class="video-list-url js-thumbnail"></a>
+											</div>
+											<div class="video-info info">
+												<h3>
+													<a href="https://dev.meandmygolf.com/video/turn-your-slice-into-a-draw-part-1/?t=dashboard&type=vault">Pt 1 &#8211; Turn Your Slice into a Draw</a>
+												</h3>
+
+												<span>
+													<i class="icon icon-eye"></i>305414 views
+													<span class="author"></span>
+												</span>
+
+												<div class="video-icons-cont">
+
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /end-section-list-groups -->
+
+			<!-- section-calendar -->
+			<section class="section-box section-calendar">
+				<div class="container">
+					<div class="row">
+						<div class="col-8">
+							<div class="calendar-wrap">
+								<h3 class="font-blue">Calendar</h3>
+								<div id="calendar"></div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="list-group">
+								<div class="list-group-title bg-blue">
+									<h3>Articles</h3>
+								</div>
+								<div class="list-group-cont video-list">
+									<ul>
+										<li class="clearfix">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon icon-file5 bg-yellow"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/narrow-your-stance-to-draw-the-ball/?t=dashboard">Narrow Your Stance To Draw The Ball</a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> March 23, 2017 at 11:15am</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon icon-file5 bg-yellow"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/fix-your-slice-shake-hands-with-the-target/?t=dashboard">Fix Your Slice By Shaking Hands With The Target</a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> March 21, 2017 at 12:02am</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon icon-file5 bg-yellow"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/the-biggest-reason-for-golfers-3-putting/?t=dashboard">The Biggest Reason For Golfers 3 Putting</a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> March 16, 2017 at 10:41am</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="clearfix">
+											<div class="valign-outer">
+												<div class="valign-middle">
+													<div class="valign-inner ">
+														<div class="icon-box alignleft">
+															<i class="icon icon icon-file5 bg-yellow"></i>
+														</div>
+														<div class="info">
+															<h3>
+																<a href="https://dev.meandmygolf.com/plug-yourself-in-for-more-power-in-your-golf-swing/?t=dashboard">For More Power In Your Golf Swing &#8211; Plug Yourself In</a>
+															</h3>
+															<span>
+																<i class="icon icon-calendar-o"></i> March 14, 2017 at 11:23am</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="banner-wrap">
+								<a href="http://www.jdoqocy.com/click-8264765-12826389" target="_blank">
+									<img src="https://dev.meandmygolf.com/wp-content/uploads/2017/03/12826389-1485471436686.jpeg" alt="" class="adv-image"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /end-section-calendar -->
+		</div>
+
+
+		<a class="dashboard-pending-modal link" href="#dashboard-pending-modal" style="display: none;"></a>
+
+
+		<div id="dashboard-pending-modal" class="white-popup-block mfp-hide dashboard-payment-notification-popup">
+			<div class="modal-container">
+				<div class="modal-container-inner">
+					<p class="text-right">
+						<a class="dashboard-pending-modal-dismiss" href="#">CLOSE</a>
+					</p>
+
+					<h2 class="full-title">YOUR ACCOUNT IS PENDING</h2>
+
+					<div class="on-hold-description">
+						<h2>THANK YOU FOR BECOMING A MEMBER!</p>
+							<h2>
+								<p class="small-text">Thank you for joining Me and My Golf. For some reason there is a problem with your payment method you just input.
+									It’s in a &#8220;Pending&#8221; status. This can happen because your bank didn&#8217;t recognize our online verification
+									process we do as soon as you sign up. Usually it will resolve itself shortly, but if it doesn&#8217;t, please contact
+									your bank and notify them of your recent activity. Or you can click the button below and update with a new payment
+									method.</p>
+					</div>
+
+					<div class="section-big-btn">
+						<div class="btn-wrap">
+							<a href="/dashboard-account/?t=dashboard#tab-info-3" class="btn btn-primary btn-xlg btn-bottom-border btn-anim-to-border bg-green front-btn">
+								<span>RECONCILE ACCOUNT</span>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
